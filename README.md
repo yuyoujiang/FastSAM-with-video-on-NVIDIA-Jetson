@@ -88,13 +88,13 @@ model.export(format='engine', device='0', imgsz=640, half=True)
 ### For video 
 
 ```sh
-python3 Inference_video.py --model_path <path to model> --input_path <path to input video> --imgsz 640
+python3 Inference_video.py --model_path <path to model> --img_path <path to input video> --imgsz 640
 ```
 
 ### For webcam
 
 ```sh
-python3 Inference_video.py --model_path <path to model> --input_path <id of camera> --imgsz 640
+python3 Inference_video.py --model_path <path to model> --img_path <id of camera> --imgsz 640
 ```
 
 ## References
